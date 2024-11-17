@@ -1,0 +1,19 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    height: 100vh;
+    width: 100vw; 
+    display: flex;
+    justify-content: center;
+    align-items: center;;
+}
+
+#gameCanvas{
+    width: calc(100% - 10px);
+    height: calc(100% - 10px);
+    border: 3px solid gainsboro;
+    border-radius: 10px;
+    display: flex;
+    flex-wrap: wrap; 
+    background-color: whitesmoke;
+}
